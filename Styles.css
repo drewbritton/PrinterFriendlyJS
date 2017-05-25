@@ -1,0 +1,114 @@
+body {
+    margin: 10px;
+    padding: 5px;
+    background-color: #026587;
+    background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+    background-size: 13px, 29px, 37px, 53px;
+    font: 1em Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+    font: 3em Helvetica, sans-serif;
+    color: cornsilk;
+    text-shadow: 2px 2px #000000;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+h2 {
+    font: 2em Helvetica, sans-serif;
+    text-shadow: 2px 2px #ffffff;
+    padding: 20px;
+    margin: auto;
+}
+
+p {
+    font: 0.8em Verdana, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: black;
+    border: solid;
+    border-color: gainsboro;
+    padding: 10px;
+}
+
+a {
+    color: #026587;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+#main {
+    align-content: center;
+}
+
+#header {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#sidenav {
+    position: fixed;
+    top: 0; left: 0;
+    height: 100%; width: 60px;
+    background-color: aliceblue;
+    border: solid;
+    border-color: gainsboro;
+}
+
+#content {
+    margin: 20px;
+    padding: 10px;
+}
+
+#ad {
+    /*position: absolute;*/
+    /*margin: auto;*/
+    /*padding: 10px;*/
+    /*border: solid;*/
+    /*border-color: gainsboro;*/
+    right: 1%;
+    margin: auto;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    top: 40%;
+}
+
+#footer {
+    padding: 60px;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    top: 99%;
+}
+
+#buttonprint {
+    padding: 20px;
+    margin: 25px;
+    float: right;
+}
+
+#btnPrint {
+    background-color: blueviolet;
+    border: solid;
+    border-color: gainsboro;
+    padding: 10px 10px;
+    color: gainsboro;
+    display: inline-block;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}

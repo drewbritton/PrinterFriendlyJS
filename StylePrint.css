@@ -1,0 +1,99 @@
+body {
+    margin: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    font: 12pt;
+}
+
+h1 {
+    font: 3em Helvetica, sans-serif;
+    color: cornsilk;
+    text-shadow: 2px 2px #000000;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+h2 {
+    font: 2em Helvetica, sans-serif;
+    text-shadow: 2px 2px #ffffff;
+    padding: 20px;
+    margin: auto;
+}
+
+p {
+    font-size: 12pt;
+    color: black;
+    border: solid;
+    border-color: black;
+    padding: 10px;
+}
+
+a {
+    color: #026587;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+#main {
+    align-content: center;
+}
+
+#header {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#sidenav {
+    position: fixed;
+    top: 0; left: 0;
+    height: 0%; width: 0x;
+    border: solid;
+}
+
+#content {
+    margin: 20px;
+    padding: 10px;
+}
+
+#ad {
+    right: 1%;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    top: 40%;
+}
+
+#footer {
+    padding: 60px;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    top: 99%;
+}
+
+#buttonprint {
+    padding: 20px;
+    margin: 25px;
+    float: right;
+}
+
+#btnPrint {
+    background-color: blueviolet;
+    border: solid;
+    border-color: gainsboro;
+    padding: 10px 10px;
+    color: gainsboro;
+    display: inline-block;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
